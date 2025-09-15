@@ -14,8 +14,12 @@ A simple XR prototype of a communication board, built with the [StereoKit](https
 This project uses the .NET SDK. Make sure you have it installed by following the [StereoKit Getting Started Guide](https://stereokit.net/Pages/Guides/Getting-Started.html).
 
 1. Clone this repository.
-2. Open the project in your preferred code editor.
-3. Run the application using the following commands:
+   ```bash
+   git clone https://github.com/jackdaus/xr-comms-board.git
+   ```
+
+3. Open the project in your preferred code editor.
+4. Run the application using the following commands:
 
     **For PC-VR.**
     ```shell
