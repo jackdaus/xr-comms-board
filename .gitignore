@@ -1,0 +1,3 @@
+# Minimal .gitignore for .NET StereoKit project
+bin/
+obj/
