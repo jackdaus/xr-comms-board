@@ -1,32 +1,28 @@
 # XR Communication Board
 
-A simple XR prototype built with the [StereoKit](https://stereokit.net/) XR library. It demonstrates a simple letter board that can be used to assist non-verbal people with communication.
+A simple XR prototype of a communication board, built with the [StereoKit](https://stereokit.net/) library! It demonstrates a letter board that can be used to assist with communication.
 
-
+![Demo of the XR Communication Board in action](demo.gif)
 
 ## Requirements
 
-- .NET SDK 9 or newer
-- Android Studio (for building to Android headsets like Meta Quest, etc.)
+- [.NET SDK 9](https://dotnet.microsoft.com/en-us/download/dotnet/9.0) or newer
+- [Android Studio](https://developer.android.com/studio) (for building to Android XR headsets, like Meta Quest)
 
 ## How to Run
 
-This project uses the modern [.NET SDK](https://dotnet.microsoft.com/en-us/). Make sure you have it installed! You can follow along with the [StereoKit Getting Started](https://stereokit.net/Pages/Guides/Getting-Started.html) to get the .NET SDK set up.
+This project uses the .NET SDK. Make sure you have it installed by following the [StereoKit Getting Started Guide](https://stereokit.net/Pages/Guides/Getting-Started.html).
 
-Then,
-- Clone this GitHub repository.
-- Open the project in VSCode.
-- Build and run using the standard .NET command: `dotnet run`
-- For hot reloading: `dotnet watch`
-- To build and run to an Android device: `dotnet run --project .\Projects\Android\xr-comms-board.Android.Android.csproj`
+1. Clone this repository.
+2. Open the project in your preferred code editor.
+3. Run the application using the following commands:
 
-## Project Structure
-
-- `Program.cs`: Main entry point for the application.
-- `Assets/`: Media assets (images, shader, models, etc.)
-- `Projects/Android/`: Android-specific project files.
-- `.github/copilot-instructions.md`: Workspace instructions for Copilot.
-
-## Documentation
-
-Refer to the [StereoKit documentation](https://stereokit.net/) for more details on development and APIs.
+    **For PC-VR.**
+    ```shell
+    dotnet run
+    ```
+    
+    **For Android Devices:**
+    ```shell
+    dotnet run --project ./Projects/Android/xr-comms-board.Android.csproj
+    ```
